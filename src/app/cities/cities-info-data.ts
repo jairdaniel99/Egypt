@@ -1,18 +1,19 @@
+import { CityInfo } from '../interfaces/cityInfo';
 export const Citiesinfo: CityInfo[] = [
   {
     name: 'Aswan',
     attractionSites: ['Abu-Simbel', 'Nubian Museum', 'Elephantine'],
   },
   {
-    name: 'Aswan',
-    attractionSites: ['Abu-Simbel', 'Nubian Museum', 'Elephantine'],
+    name: 'Cairo',
+    attractionSites: ['The Pyramids', 'Nile', 'Khan elKhalili'],
   },
   {
-    name: 'Aswan',
-    attractionSites: ['Abu-Simbel', 'Nubian Museum', 'Elephantine'],
+    name: 'Luxor',
+    attractionSites: ['Valley of the Kings', 'Karnak', 'Luxor Template'],
   },
   {
-    name: 'Aswan',
-    attractionSites: ['Abu-Simbel', 'Nubian Museum', 'Elephantine'],
+    name: 'Sharm El-Sheikh',
+    attractionSites: ['Naama', 'Ras Muhammad National Park', 'Pyramids'],
   },
 ];
