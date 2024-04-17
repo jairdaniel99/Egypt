@@ -3,6 +3,7 @@
   {{
     city.name
   }}:
-  <li [ngClass]="color ? 'green' : 'black'">{{ city.attractionSites }}</li>
+  <li [ngClass]="city.attractionSites.length >= 3 ? 'green' : 'black'">
+    {{ city.attractionSites }}
+  </li>
 </ul>
-{{ color }}

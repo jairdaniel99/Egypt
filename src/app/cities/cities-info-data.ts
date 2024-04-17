@@ -14,6 +14,6 @@ export const Citiesinfo: CityInfo[] = [
   },
   {
     name: 'Sharm El-Sheikh',
-    attractionSites: ['Naama', 'Ras Muhammad National Park', 'Pyramids'],
+    attractionSites: ['Naama', 'Ras Muhammad National Park'],
   },
 ];
